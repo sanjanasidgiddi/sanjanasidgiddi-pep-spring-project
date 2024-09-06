@@ -1,5 +1,7 @@
 package com.example.entity;
 
+import java.util.List;
+
 import javax.persistence.*;
 
 /**
@@ -29,6 +31,7 @@ public class Account {
      * A default, no-args constructor, as well as correctly formatted getters and setters, are needed for
      * Jackson Objectmapper to work.
      */
+
     public Account(){
 
     }
